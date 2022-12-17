@@ -1,7 +1,7 @@
 import re
 
 
-class Solution:
+class No665:
     def monotoneIncreasingDigits(self, n: int) -> int:
         num_arr = [int(a) for a in str(n)]
 
@@ -20,4 +20,4 @@ class Solution:
         return int("".join(map(str, num_arr)))
         
       
-print(Solution().monotoneIncreasingDigits(101))
+print(No665().monotoneIncreasingDigits(101))

@@ -7,7 +7,7 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-class Solution:
+class No665:
     def __init__(self) -> None:
         self.max_depth = 0
         self.nodes = []

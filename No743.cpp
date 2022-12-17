@@ -19,6 +19,3 @@ public:
         return max_dist == MAX_TIME ? -1:max_dist;
     }
 };
-int main() {
-    return 0;
-}

@@ -1,9 +1,9 @@
-from math import floor
+from main.src.math import floor
 import sys
 from typing import List
 
 
-class Solution:
+class No665:
     def splitArray(self, nums: List[int], m: int) -> int:
         l = 0
         r = sum(nums)
@@ -53,5 +53,5 @@ class Solution:
 #         return dp[m-1][len(nums)-1]
 
 
-print(Solution().splitArray([1, 4, 4], 3))
+print(No665().splitArray([1, 4, 4], 3))
 

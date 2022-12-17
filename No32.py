@@ -1,4 +1,4 @@
-class Solution:
+class No665:
     def longestValidParentheses(self, s: str) -> int:
         stack = []
         indexes = [0 for i in range(len(s))]

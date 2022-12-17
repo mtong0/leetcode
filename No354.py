@@ -1,7 +1,7 @@
 from typing import List
 
 
-class Solution:
+class No665:
     def maxEnvelopes(self, envelopes: List[List[int]]) -> int:
         for i in range(len(envelopes)):
             envelopes[i].append(i)

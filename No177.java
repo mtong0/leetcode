@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 // Definition for a Node.
 class Node {
     public int val;
@@ -46,7 +43,7 @@ class Node {
 };
 
 
-class Solution {
+class No177 {
     // public Node connect(Node root) {
     //     if(root == null ) {
     //         return root;
@@ -115,6 +112,6 @@ class Solution {
         String[] nodes =  {"2","1","3","0","7","9","1","2","null","1","0","null","null",
         "8","8","null","null","null","null","7"};
         Node tree = Node.createTree(nodes);
-        tree = new Solution().connect(tree);
+        tree = new No177().connect(tree);
     }
 }

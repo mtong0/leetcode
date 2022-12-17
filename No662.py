@@ -8,7 +8,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
-class Solution:
+class No665:
     def widthOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         cur = [(root, "")]
         next = []

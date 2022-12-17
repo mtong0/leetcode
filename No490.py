@@ -1,7 +1,7 @@
 from typing import List
 
 
-class Solution:
+class No665:
     def hasPath(self, maze: List[List[int]], start: List[int], destination: List[int]) -> bool:
         m = [[1 for i in range(len(maze[0])+2)] for j in range(len(maze)+2)]
         for i in range(0, len(maze)):
@@ -44,4 +44,4 @@ class Solution:
         return [point[0]-direction[0], point[1]-direction[1]]
 
 
-Solution().hasPath([[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]], [0,4], [4,4])
+No665().hasPath([[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]], [0,4], [4,4])

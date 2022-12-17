@@ -1,25 +1,24 @@
-from collections import defaultdict
-from email.policy import default
 from typing import List
 
-class Solution:
+class No665:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        res_dict = defaultdict(lambda: 10000)
-        res_dict[amount] = 10000
-        res_dict[0] = 0
+        coins.sort(reverse=True)
+        return self.helper(coins, amount, len(coins)-1)
 
-        self.dp(coins, amount, res_dict)
-
-        return res_dict[amount]
-
-    def dp(self, coins, amount, res_dict):
+    def helper(self, coins: List[int], amount: int, coin_index) -> int:
         if amount == 0:
             return 0
-        else:
-            for a in coins:
-                if amount == 2:
-                    print()
-                if amount >= a:
-                    res_dict[amount] = min(res_dict[amount], self.dp(coins, amount-a, res_dict)+1)
 
-Solution().coinChange([1, 2, 5], 11)
+        max_coin = 0
+        for k in range(coin_index, -1, -1):
+            coin = coins[k]
+            max_coin = int(amount / coin)
+            if max_coin != 0:
+                for i in range(max_coin, -1, -1):
+                    count = self.helper(coins, amount - i * coin, coin_index-1)
+                    if count != -1:
+                        return count + i 
+        
+        return -1
+
+print(No665().coinChange([186,419,83,408], 6249))

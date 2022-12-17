@@ -8,7 +8,7 @@ class Node:
         self.next = next
 """
 
-class Solution:
+class No665:
     def connect(self, root: 'Node') -> 'Node':
         if root == None:
             return root

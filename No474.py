@@ -1,7 +1,7 @@
 from typing import List
 
 
-class Solution:
+class No665:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         dp = [[0 for i in range(n+1)] for j in range(m+1)]
 
@@ -15,4 +15,4 @@ class Solution:
         
         return dp[m][n]
 
-print(Solution().findMaxForm(["10","0","1"], 1, 1))
+print(No665().findMaxForm(["10","0","1"], 1, 1))

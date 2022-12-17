@@ -1,10 +1,10 @@
 from collections import defaultdict
-from math import nextafter
+from main.src.math import nextafter
 from operator import ne
 from typing import DefaultDict, List
 import sys
 
-class Solution:
+class No665:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
         graph = defaultdict(list)
 
@@ -39,4 +39,4 @@ class Solution:
         
         return -1 if ans == sys.maxsize else ans
 
-Solution().networkDelayTime([[2, 1, 1], [2, 3, 1], [3, 4, 1]], 4, 2)
+No665().networkDelayTime([[2, 1, 1], [2, 3, 1], [3, 4, 1]], 4, 2)

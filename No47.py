@@ -1,7 +1,7 @@
 from collections import defaultdict
 from typing import List
 
-class Solution:
+class No665:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         map = defaultdict(int)
         for i in range(len(nums)):
@@ -37,4 +37,4 @@ class Solution:
         return
 
 nums = [1, 2, 3]
-Solution().permuteUnique(nums)
+No665().permuteUnique(nums)

@@ -2,7 +2,7 @@ from operator import ne
 from typing import List
 
 
-class Solution:
+class No665:
     def lengthOfLIS(self, nums: List[int]) -> int:
         next = nums[0]
         count = 1
@@ -17,4 +17,4 @@ class Solution:
         
         return count-1
 
-print(Solution().lengthOfLIS([0,1,0,3,2,3]))
+print(No665().lengthOfLIS([0,1,0,3,2,3]))

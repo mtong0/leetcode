@@ -1,4 +1,4 @@
-class Solution:
+class No665:
     def countSubstrings(self, s: str) -> int:
         res = []
         for i in range(len(s)):
@@ -23,6 +23,6 @@ class Solution:
                     res.append(s[left:right+1])
         return res
 
-print(Solution().countSubstrings("aaaa"))
+print(No665().countSubstrings("aaaa"))
 
 

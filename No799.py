@@ -1,4 +1,4 @@
-class Solution:
+class No665:
     def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:
         cur_num = [poured]
         next_num = [0, 0]
@@ -14,4 +14,4 @@ class Solution:
 
         return cur_num[query_glass] if cur_num[query_glass] < 1 else 1
 
-Solution().champagneTower(2, 1, 1)
+No665().champagneTower(2, 1, 1)

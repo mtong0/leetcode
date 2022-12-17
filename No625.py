@@ -1,7 +1,7 @@
 from re import I, L
 from typing import List
 
-class Solution:
+class No665:
     def smallestFactorization(self, num: int) -> int:
         factors = []
 
@@ -31,4 +31,4 @@ class Solution:
 
         return -1
 
-Solution().smallestFactorization(11)
+No665().smallestFactorization(11)
