@@ -1,9 +1,10 @@
+package src.backtrack;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class CombinationSum {
+public class No39 {
     int target = 0;
     List<Integer> candidates;
     List<List<Integer>> res;
@@ -73,6 +74,6 @@ public class CombinationSum {
 
     public static void main(String[] args) {
         int[] candidates = {1,3,2,5};
-        System.out.println(new CombinationSum().combinationSum(candidates, 5));
+        System.out.println(new No39().combinationSum(candidates, 5));
     }
 }

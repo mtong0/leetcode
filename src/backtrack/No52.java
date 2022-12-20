@@ -1,4 +1,4 @@
-package src;
+package src.backtrack;
 
 public class No52 {
     int[][] attackedBoard;

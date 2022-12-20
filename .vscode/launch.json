@@ -1,11 +1,27 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch No8",
+            "request": "launch",
+            "mainClass": "src.other.No8",
+            "projectName": "algorithm_31606294"
+        },
+        {
+            "type": "java",
+            "name": "Launch No150",
+            "request": "launch",
+            "mainClass": "src.stack.No150",
+            "projectName": "algorithm_31606294"
+        },
+        {
             "name": "C/C++: g++ build and debug active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": ["-std=c++11"],
+            "args": [
+                "-std=c++11"
+            ],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],

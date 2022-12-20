@@ -1,7 +1,8 @@
+package src.dp;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class ChampagneTower {
+public class No799 {
     public double champagneTower(int poured, int query_row, int query_glass) {
         int n = (query_row+3)*(query_row+2)/2;
         double[] cups = new double[n];
@@ -47,7 +48,7 @@ public class ChampagneTower {
     }
 
     public static void main(String[] args) {
-        double res = new ChampagneTower().champagneTower(25, 6, 1);
+        double res = new No799().champagneTower(25, 6, 1);
         System.out.println(res);
     }
 }

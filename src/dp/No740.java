@@ -1,9 +1,10 @@
+package src.dp;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-public class DeleteAndEarn {
+public class No740 {
     /* Solution 1
     private HashMap<Integer, Integer> points = new HashMap<>();
     private HashMap<Integer, Integer> caches = new HashMap<>();
@@ -142,7 +143,7 @@ public class DeleteAndEarn {
     }
     public static void main(String[] args) {
         int[] nums = {3,3,2,4,4,6,7,8,9,9,6};
-        int res = new DeleteAndEarn().deleteAndEarn(nums);
+        int res = new No740().deleteAndEarn(nums);
         System.out.println(res);
     }
 }

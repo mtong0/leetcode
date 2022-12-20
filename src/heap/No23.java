@@ -1,9 +1,7 @@
-package src;
+package src.heap;
 
 import src.util.ListNode;
 
-import java.awt.image.Kernel;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 

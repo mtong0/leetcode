@@ -1,7 +1,8 @@
+package src.backtrack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Combinations {
+public class No77 {
     List<List<Integer>> res;
     int k;
     public List<List<Integer>> combine(int n, int k) {

@@ -1,8 +1,9 @@
+package src.greedy;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class BoatsToCarryPeople {
+public class No881 {
     public int numRescueBoats(int[] people, int limit) {
         List<Integer> ps = new ArrayList<>();
         for(int p: people) {
