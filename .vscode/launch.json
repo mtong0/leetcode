@@ -4,7 +4,7 @@
             "type": "java",
             "name": "Launch No8",
             "request": "launch",
-            "mainClass": "src.other.No8",
+            "mainClass": "src.algorithm.No8",
             "projectName": "algorithm_31606294"
         },
         {
